@@ -9,7 +9,7 @@
 
 
 ### View
-![Alt text](/applications/Front-End/DiceGame/Screen Shot 2017-07-18 at 10.26.50 PM.png?raw=true "Optional Title")
+![Alt text](/Front-End/DiceGame/Screen Shot.png?raw=true "Optional Title")
 ### Environment
 
 ### How to run?
