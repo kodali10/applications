@@ -4,7 +4,7 @@
 Backend side of app is completed and endpoints are ready to take requests. Client Side app need's to be build(Angular). 
 
 ### Functionality
-* Here we can create, get all users, get user by id, get user by name, delete user by id & delete all users
+* Here we can create, get all users, get user by id, get user by name, update, delete user by id & delete all users
 
 
 ### View
@@ -31,3 +31,11 @@ Java 8, Spring 4, Hibernate 5.4.1, Jsp, Jstl, JSON, xml, CSS3, MySQL, Maven, Apa
 * Import the userManagement folder into eclipse as a maven project.
 * Build a war using Maven and deploy it into Tomcat server.
 * To start the application start the server.`http://localhost:8080/UserManagement/`
+
+### End-Points
+* Create User: http://localhost:8080/UserManagement/user/new
+* Get User : http://localhost:8080/UserManagement/user/{id}
+* Get all Users:  http://localhost:8080/UserManagement/users
+* Update User: http://localhost:8080/UserManagement/user/{id}
+* Delete User: http://localhost:8080/UserManagement/user/{id}
+* Delete All Users: http://localhost:8080/UserManagement/user/deleteall
