@@ -1,6 +1,6 @@
-# Dice Game
+# Recipe App
 
-### How to play?
+### How to Use?
 * The game has 2 players, playing in rounds
 * In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score
 * BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
@@ -9,12 +9,15 @@
 
 
 ### View
-<img width="1280" alt="screen shot" src="https://user-images.githubusercontent.com/26859920/29298844-56d344b0-8130-11e7-8ce2-0d13c408a54d.png">
+![collage](https://user-images.githubusercontent.com/26859920/29299570-5113f66e-8135-11e7-90b5-48a71d08a0e0.jpg)
+
 
 ### Environment
 
-Javascript, HTML5, CSS3, Chrome browser & Brackets 
+Angular 4, Typescript, HTML5, CSS3, NPM, AngularCLI,Chrome browser &  webstorm 
 
 ### How to run?
 
-**Open index.html file with any browser**
+* Download the code
+* Go to Recipe App folder using terminal.
+* `npm install`
