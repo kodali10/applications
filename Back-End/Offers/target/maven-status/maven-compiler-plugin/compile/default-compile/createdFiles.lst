@@ -1,0 +1,7 @@
+com/kodali/dao/OfferDao.class
+com/kodali/beans/Offer.class
+com/kodali/controllers/HomeController.class
+com/kodali/daoImpl/OfferDaoImpl.class
+com/kodali/services/OffersService.class
+com/kodali/controllers/OfferController.class
+com/kodali/controllers/LoginController.class

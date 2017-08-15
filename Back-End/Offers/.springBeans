@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beansProjectDescription>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.8.4.201703310634-RELEASE]]></pluginVersion>
+	<configSuffixes>
+		<configSuffix><![CDATA[xml]]></configSuffix>
+	</configSuffixes>
+	<enableImports><![CDATA[true]]></enableImports>
+	<configs>
+		<config>WebContent/WEB-INF/dispatcher-servlet.xml</config>
+		<config>src/main/java/com/kodali/config/dao-context.xml</config>
+		<config>src/main/java/com/kodali/config/service-context.xml</config>
+		<config>src/main/java/com/kodali/config/security-context.xml</config>
+		<config>java:com.kodali.daoImpl.OfferDaoImpl</config>
+	</configs>
+	<autoconfigs>
+	</autoconfigs>
+	<configSets>
+		<configSet>
+			<name><![CDATA[dataSource]]></name>
+			<allowBeanDefinitionOverriding>true</allowBeanDefinitionOverriding>
+			<incomplete>false</incomplete>
+			<configs>
+				<config>src/main/java/com/kodali/config/dao-context.xml</config>
+				<config>src/main/java/com/kodali/config/security-context.xml</config>
+			</configs>
+			<profiles>
+			</profiles>
+		</configSet>
+	</configSets>
+</beansProjectDescription>
