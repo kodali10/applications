@@ -1,5 +1,7 @@
 # Recipe App
 
+#### Status of App: Currently it is using firebase for back-end operations. Back-End(Java) needs to be set-up and client app need to configured according to that. 
+
 ### How to Use?
 * Login and signup to Recipe app dashboard.
 * You can create new recipes.
