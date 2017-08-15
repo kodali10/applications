@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      Name <input type="text" #serverName><br>
+      Age <input type="text" #age><br>
+      Email <input type="text" #email><br>
+      
+      <br><br>
+      <button class="btn btn-primary" (click)="onSave()">Add User</button>
+      <hr>
+      
+      <ul class="list-group" *ngFor="let use of user">
+        <li class="list-group-item">ID:  Name: {{ use.name }} : {{ use.age }}: {{ use.email }}</li>
+      </ul>
+    </div>
+  </div>
+</div>
