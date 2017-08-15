@@ -16,3 +16,5 @@
 Javascript, HTML5, CSS3, Chrome browser & Brackets 
 
 ### How to run?
+
+**Open index.html file with any browser**
