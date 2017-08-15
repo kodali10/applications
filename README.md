@@ -1,6 +1,6 @@
 # Applications
 
-Here you can find all the apps that i have developed. 
+Here you can find all the **apps** that i have developed. 
 
 ## Front-End
 ## Back-End
