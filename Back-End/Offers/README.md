@@ -2,15 +2,18 @@
 
 #### Status of App: Finished. 
 
-### How to Use?
-*
+### Functionality
+* Any person can see the list of offers availabe by clicking show current offers
+* To add an offer you must login
+* Then you can submit offer by typing appropriate name, email & text.
 
 ### View
-<img width="1280" alt="screen shot" src="https://user-images.githubusercontent.com/26859920/29298844-56d344b0-8130-11e7-8ce2-0d13c408a54d.png">
+![collage](https://user-images.githubusercontent.com/26859920/29335717-36dcee8a-81d1-11e7-965a-e6eeab6e3590.jpg)
+
 
 ### Environment
 
-Java, HTML5, CSS3, Chrome browser & Brackets 
+Java 8, Spring 4, Hibernate 5.4.1, Jsp, Jstl, xml, CSS3, MySQL, Maven, Apache Tomcat v9.0, Eclipse, Git. 
 
 ### How to run?
 * Download the offers folder
