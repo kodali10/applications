@@ -1,0 +1,42 @@
+<div class="container-fluid">
+  <div class="col-xs-12">
+    <a href="http://localhost:4200/" class="col-xs-12"><img
+      [src]='logoPath'
+      alt=""
+      class="img-responsive"
+      style="max-height: 50px;"></a>
+  </div>
+
+
+</div>
+
+<div class="col-xs-12" *ngIf=" whichPage === 'signup'">
+  <div class="login-page">
+    <div class="form">
+      <form class="register-form">
+        <input type="text" [(ngModel)]="name" name="something" placeholder="user name"/>
+        <input type="text" [(ngModel)]="email" name="something" placeholder="email"/>
+        <input type="password" [(ngModel)]="password" name="something" placeholder="password"/>
+        <button (click)="onSignup()"> Sign Up</button>
+        <p class="message">Already registered? <a href="#" (click)="loginToggle('signin')">Sign In</a></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-xs-12" *ngIf="whichPage === 'signin'">
+  <div class="login-page">
+    <div class="form">
+      <form class="login-form">
+        <input type="text" [(ngModel)]="name" name="something" placeholder="user name"/>
+        <input type="password" [(ngModel)]="password" name="something" placeholder="password"/>
+        <button (click)="onSignin()">login</button>
+        <p class="message">Not registered? <a href="#" (click)="loginToggle('signup')">Create an account</a></p>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
