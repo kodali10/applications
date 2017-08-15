@@ -13,4 +13,6 @@
 
 ### Environment
 
+Javascript, HTML5, CSS3, Chrome browser & Brackets 
+
 ### How to run?
