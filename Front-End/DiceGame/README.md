@@ -1,5 +1,7 @@
 # Dice Game
 
+#### Status of App: Finished
+
 ### How to play?
 * The game has 2 players, playing in rounds
 * In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score

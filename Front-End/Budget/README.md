@@ -1,5 +1,7 @@
 # Budget App
 
+#### Status of App: Finished
+
 ### How to Use?
 * You can enter income and expenses.
 * It will caluclate the remaining budget and % of expense of total budget.
