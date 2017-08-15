@@ -9,7 +9,8 @@
 
 
 ### View
-![Alt text](/Front-End/DiceGame/Screen Shot.png?raw=true "Optional Title")
+<img width="1280" alt="screen shot" src="https://user-images.githubusercontent.com/26859920/29298844-56d344b0-8130-11e7-8ce2-0d13c408a54d.png">
+
 ### Environment
 
 ### How to run?
